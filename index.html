@@ -5,98 +5,158 @@
     <!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
     <head>
         <!-- Заголовок страницы в браузере -->
-        <title>Templates</title>
+        <title>Чистый</title>
         <!-- Подключаем CSS -->
         <meta name="viewport" content="width=device-width,initial-scale=1">
 
         <link rel="stylesheet" href="css/style.css" />
-
-        <script src="https://kit.fontawesome.com/6b8bcf989f.js" crossorigin="anonymous"></script>
         <!-- Кодировка страницы -->
         <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
 
-        <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
-        <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+       <!-- <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>-->
+
     </head>
     <!-- Отображаемое тело страницы -->
 <body class="body">
 
 <header class="header">
-     <div class="container">
+    <div class="container">
+
         <div class="header__body">
 
-            <button class="header__burger">
-                <span></span>
-            </button>  <!--Бургер-->
+            <div class="logo">logo</div>
+            <div class="header__item">
 
-            <nav class="header__menu">
-                <ul class="header__list">
-                    <li>
-                        <a  class="header__link"href="#">Главная</a>
-                    </li>
-                    <li>
-                        <a  class="header__link"href="#">О Театре</a>
-                    </li>
-                    <li>
-                        <a  class="header__link"href="#">Наши постановки</a>
-                    </li>
-                    <li>
-                        <a  class="header__link"href="#">Партеры Театра</a>
-                    </li>
-                    <li>
-                        <a  class="header__link"href="#">Контакты</a>
-                    </li>
-                </ul>
-                <div class="header__icon">
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#"><i class="fab fa-youtube"></i></a>
-                    <a href="#"><i class="fab fa-vk"></i></a>
-                </div>
-            </nav>   <!--Меню-->
+                <a class=" header__btn" href="#">
+                    <div class=" header__btn_title">
+                        <p>Presale</p>
+                        <p>Стартовал</p>
+                    </div>
+                    <img  class="pancake__img" src="img/header/panc.png" alt="img">
+                </a>
 
-            <div class="header__contact">
-                 <div class="contact__item">
-                     <a class="contact__link" href="#">+7 495 123-45-67</a>
-                 </div>
+                <a class=" header__btn" href="#">
+                    <div class=" header__btn_title">
+                        <p>Листинг</p>
+                        <p>10 апреля</p>
+                    </div>
+                    <img  class="binane__img" src="img/header/binance.png" alt="img">
+                </a>
+
             </div>
+
         </div>
-     </div>
+
+    </div>
 </header>
 
 <div class="inner">
     <div class="container">
 
-         <div class="inner__body">
-             <div class="inner__item">
-                 <h1 class="h1">Большой театр</h1>
-                 <div class="inner__text">Большо́й теа́тр — петербургский театр, существовавший в 1784—1886 годах, с 1886 года — Петербургская консерватория. Первое постоянное в Санкт-Петербурге, крупнейшее в России и одно из крупнейших театральных зданий в Европе XVIII.</div>
-
-                 <button class="inner__btn">АФИША</button>
-             </div>
-             <div class="inner__slider">
-                <div class="inner__book">
-                    <img class="book__bg" src="img/inner__slider/1.png" alt="">
-                    <img class="book__1str" src="img/inner__slider/2.png" alt="">
+        <div class="inner__content">
+            <div class="inner__col">
+                <div class="inner__col_btn">
+                    <a href="#" class="inner__button">
+                        <span class="button__line button__line--top"></span>
+                        <span class="button__line button__line--right"></span>
+                        <span class="button__line button__line--bottom"></span>
+                        <span class="button__line button__line--left"></span>
+                        Купить #ITM
+                    </a>
+                    <a href="#" class="inner__button">
+                        <span class="button__line button__line--top2"></span>
+                        <span class="button__line button__line--right2"></span>
+                        <span class="button__line button__line--bottom2"></span>
+                        <span class="button__line button__line--left2"></span>
+                        График #ITM
+                    </a>
                 </div>
-                <div class="inner__slider_btn">
-                    <a class="next" href="#">Пред</a>
-                    <a class="back" href="#">След</a>
+            </div>
+            <div class="inner__col">
+                <div id=inner__col__title>
+                  <div id=flip>
+                    <div><div>Для вас</div></div>
+                    <div><div>Для нас</div></div>
+                    <div><div>Для меня</div></div>
+                  </div>
+                  Web3 платформа для метавселенных
                 </div>
-             </div>
-         </div>
+            </div>
+        </div>
 
-         <div class="inner__block">
-             <div class="block__item">
-                 <div class="block__text">контактная информация</div>
-                 <div class="inner__icon">
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#"><i class="fab fa-youtube"></i></a>
-                    <a href="#"><i class="fab fa-vk"></i></a>
-                 </div>
-             </div>
-         </div>
+    </div>
+</div>
+
+<div class="bg">
+    <div class="cube">
+        <div class="face front"></div>
+        <div class="face back"></div>
+        <div class="face right"></div>
+        <div class="face left"></div>
+        <div class="face top"></div>
+        <div class="face bottom"></div>
+    </div>
+</div>
+
+<!--<div class="bot__inner">
+    <div class="container">
+
+        <div class="bot__inner__body">
+            <div class="bot__inner__title">
+            С нами <span>8 миллиордов людей</span> займут своё место в метавселенной уже совсем скоро!
+            </div>
+            <div class="bot__inner_video">></div>
+        </div>
+
+    </div>
+</div>-->
+
+<div class="position">
+    <div class="container">
+
+        <section class="section">
+        <h2 class="h2"><span>Itheum</span>- первая децентрализованная кроссчейн платформа
+        </h2>
+        </section>
+
+        <div class="posistion__body">
+            <div class="posistion__col">
+                <div class="posistion__col__img">
+                    <img src="img/position/4.png" alt="">
+                </div>
+                <div class="posistion__col__text">
+                    Создавайте собственные web2 приложения для <span>сбора</span> и <span>анализа</span> данных
+                </div>
+            </div>
+
+            <div class="posistion__col">
+                <div class="posistion__col__text">
+                    Легко <span>интегрируйте</span> их в Web3 пространство с помощью ряда наших интсрументов
+                </div>
+                <div class="posistion__col__img">
+                    <img src="img/position/3.png" alt="">
+                </div>
+            </div>
+
+            <div class="posistion__col">
+                <div class="posistion__col__img">
+                    <img src="img/position/1.png" alt="">
+                </div>
+                <div class="posistion__col__text">
+                    <span>Контролируйте</span> и <span>управляйте</span> данными, используя P2P сети
+                </div>
+            </div>
+
+            <div class="posistion__col">
+                <div class="posistion__col__text">
+                    <span>Расширяйте границы</span> возможного выходя на первичный и вторичный рынок торговли данными
+                </div>
+                <div class="posistion__col__img">
+                    <img src="img/position/2.png" alt="">
+                </div>
+            </div>
+        </div>
 
     </div>
 </div>
@@ -104,306 +164,237 @@
 <div class="about">
     <div class="container">
 
-        <h2 class="h2"><span>О</span>ТЕАТРЕ</h2>
+        <section class="section">
+        <h2 class="h2"><span>Itheum</span>-Возможности
+        </h2>
+        </section>
 
         <div class="about__body">
-            <div class="about__text">
-                <span class="span__title">Самый лучший театр СПБ</span>
-
-                <p>Как свидетельствуют архивные документы, первое каменное здание Большого театра начали возводить в 1775 году по проекту Антонио Ринальди. В дальнейшем, после того как Ринальди упал с лесов и не мог лично наблюдать за ходом работ, Екатерина II поручила немецкому театральному декоратору и архитектору Людвигу Филиппу Тишбейну создать новый проект театра, который и был воплощён архитекторами Ф. В. фон Бауром и М. А. Деденёвым. Открытие его состоялось в 1783 году, хотя, основываясь на других свидетельствах, годом открытия можно считать 1784 год.</p>
+            <div class="about__col">
+            <i class="fa-solid fa-circle-check"></i>
+            <p>Набор инструментов для сбора и анализа данных</p>
+            </div>
+            <div class="about__col">
+            <i class="fa-solid fa-circle-check"></i>
+            <p>Дицентрализованная система обмена данных</p>
+            </div>
+            <div class="about__col">
+            <i class="fa-solid fa-circle-check"></i>
+             <p>NFME ID аватары и поддержка метавселенных</p>
+            </div>
+            <div class="about__col">
+            <i class="fa-solid fa-circle-check"></i>
+            <p>Возможность размещения ваших личных данных и опыта</p>
+            </div>
+            <div class="about__col">
+            <i class="fa-solid fa-circle-check"></i>
+            <p>Собственные хранилища данных</p>
+            </div>
+            <div class="about__col">
+            <i class="fa-solid fa-circle-check"></i>
+            <p>Только подтвержденные профили пользователей</p>
             </div>
 
-            <div class="about__icons">
-                <span class="span__title">немного о цифрах</span>
-
-                <div class="icons__row">
-                    <div class="about__item">
-                    <div class="item__icon">
-                        <img class="pyg__1" src="img/SVG/1/Vector.svg" alt="">
-                        <img class="pyg__2" src="img/SVG/1/Vector-1.svg" alt="">
-                        <img class="pyg__3" src="img/SVG/1/Vector-2.svg" alt="">
-                        <img class="pyg__4" src="img/SVG/1/Vector-3.svg" alt="">
-                        <img class="nogi" src="img/SVG/1/Vector-4.svg" alt="">
-                        <img class="spina" src="img/SVG/1/Vector-5.svg" alt="">
-                    </div>
-                    <div class="about__subtext">
-                        <span>1600</span> посадочных мест
-                    </div>
-                </div>
-
-                    <div class="about__item">
-                    <div class="item__icon">
-                        <img src="img/SVG/2/Vector.svg" alt="">
-                    </div>
-                     <div class="about__subtext">
-                        <span>350</span> лет  истории
-                    </div>
-                </div>
-                </div>
+            <div class="about__col">
+            <i class="fa-solid fa-circle-check"></i>
+            <p>Надежная вычислительная система</p>
             </div>
-
-            <div class="about__photo">
-                <img src="img/about.png" alt="">
+            <div class="about__col">
+            <i class="fa-solid fa-circle-check"></i>
+            <p>Возможность объединения данных</p>
             </div>
-
+            <div class="about__col">
+            <i class="fa-solid fa-circle-check"></i>
+            <p>Локальные узлы децентрализации</p>
+            </div>
+            <div class="about__col">
+            <i class="fa-solid fa-circle-check"></i>
+            <p>P2P система обмена данными</p>
+            </div>
+            <div class="about__col">
+            <i class="fa-solid fa-circle-check"></i>
+            <p>Поддержка NFT</p>
+            </div>
+            <div class="about__col">
+            <i class="fa-solid fa-circle-check"></i>
+            <p>Адаптация данных</p>
+            </div>
         </div>
 
     </div>
 </div>
 
-<div class="staging">
-
-    <h2 class="h2"><span>Наши</span>постановки</h2>
-
-    <div class="staging__body">
-        <div class="staging__col">
-            <p class="oskar">ОСКАР 2020</p>
-            <p class="date">октябрь 2020</p>
-
-            <button class="stagind__btn">
-                <i class="fas fa-search"></i>
-            </button>
-
-            <img class="staging__photo"src="img/staging/1.png" alt="">
-        </div>
-        <div class="staging__col">
-            <p class="oskar">ОСКАР 2020</p>
-            <p class="date">сентябрь 2020</p>
-
-            <button class="stagind__btn">
-                <i class="fas fa-search"></i>
-            </button>
-
-            <img class="staging__photo_active"src="img/staging/2.png" alt="">
-        </div>
-        <div class="staging__col">
-            <p class="oskar">золотой громовон</p>
-            <p class="date">июль 2020</p>
-
-            <button class="stagind__btn">
-                <i class="fas fa-search"></i>
-            </button>
-
-            <img class="staging__photo"src="img/staging/3.png" alt="">
-        </div>
-        <div class="staging__col">
-            <p class="oskar">щелкунчик</p>
-            <p class="date">май 2020</p>
-
-            <button class="stagind__btn">
-                <i class="fas fa-search"></i>
-            </button>
-
-            <img class="staging__photo"src="img/staging/4.png" alt="">
-        </div>
-    </div>
-
-</div>
-
-<div class="comment">
-
-
-        <div class="comment__body">
-
-            <div class="comment__row">
-                <div class="comment__col">
-                    <p>2018</p>
-                    <p>2019</p>
-                    <p>2020</p>
-                </div>
-                <div class="comment__col">
-                    <div class="comment__item">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-
-                        <div class="p__comment">Лучший театр по мнению театральных критиков Парижа</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-</div>
-
-<div class="partners">
+<div class="benefits">
     <div class="container">
 
-       <h2 class="h2"><span>партнеры</span>театра</h2>
+        <section class="section">
+        <h2 class="h2"><span>Преимущества</span> платформы
+        </h2>
+        </section>
 
-        <div class="partners__body">
-            <div class="partners__row">
-                <div class="partners__col">
-                   <div class="gazprom__logo">
-                        <img class="g" src="img/partners/path26.svg" alt="">
-                        <img class="a" src="img/partners/path28.svg" alt="">
-                        <img class="z" src="img/partners/path30.svg" alt="">
-                        <img class="p" src="img/partners/path32.svg" alt="">
-                        <img class="r" src="img/partners/path34.svg" alt="">
-                        <img class="o" src="img/partners/path36.svg" alt="">
-                        <img class="m" src="img/partners/path38.svg" alt="">
-                        <img class="fire" src="img/partners/path40.svg" alt="">
-                        <img class="log" src="img/partners/path42.svg" alt="">
-                   </div>
-                </div>
-                <div class="partners__col">
-                   <div class="gazprom__logo">
-                        <img class="g" src="img/partners/path26.svg" alt="">
-                        <img class="a" src="img/partners/path28.svg" alt="">
-                        <img class="z" src="img/partners/path30.svg" alt="">
-                        <img class="p" src="img/partners/path32.svg" alt="">
-                        <img class="r" src="img/partners/path34.svg" alt="">
-                        <img class="o" src="img/partners/path36.svg" alt="">
-                        <img class="m" src="img/partners/path38.svg" alt="">
-                        <img class="fire" src="img/partners/path40.svg" alt="">
-                        <img class="log" src="img/partners/path42.svg" alt="">
-                   </div>
-                </div>
-                <div class="partners__col">
-                   <div class="gazprom__logo">
-                        <img class="g" src="img/partners/path26.svg" alt="">
-                        <img class="a" src="img/partners/path28.svg" alt="">
-                        <img class="z" src="img/partners/path30.svg" alt="">
-                        <img class="p" src="img/partners/path32.svg" alt="">
-                        <img class="r" src="img/partners/path34.svg" alt="">
-                        <img class="o" src="img/partners/path36.svg" alt="">
-                        <img class="m" src="img/partners/path38.svg" alt="">
-                        <img class="fire" src="img/partners/path40.svg" alt="">
-                        <img class="log" src="img/partners/path42.svg" alt="">
-                   </div>
-                </div>
-                <div class="partners__col">
-                   <div class="gazprom__logo">
-                        <img class="g" src="img/partners/path26.svg" alt="">
-                        <img class="a" src="img/partners/path28.svg" alt="">
-                        <img class="z" src="img/partners/path30.svg" alt="">
-                        <img class="p" src="img/partners/path32.svg" alt="">
-                        <img class="r" src="img/partners/path34.svg" alt="">
-                        <img class="o" src="img/partners/path36.svg" alt="">
-                        <img class="m" src="img/partners/path38.svg" alt="">
-                        <img class="fire" src="img/partners/path40.svg" alt="">
-                        <img class="log" src="img/partners/path42.svg" alt="">
-                   </div>
-                </div>
-                <div class="partners__col">
-                   <div class="gazprom__logo">
-                        <img class="g" src="img/partners/path26.svg" alt="">
-                        <img class="a" src="img/partners/path28.svg" alt="">
-                        <img class="z" src="img/partners/path30.svg" alt="">
-                        <img class="p" src="img/partners/path32.svg" alt="">
-                        <img class="r" src="img/partners/path34.svg" alt="">
-                        <img class="o" src="img/partners/path36.svg" alt="">
-                        <img class="m" src="img/partners/path38.svg" alt="">
-                        <img class="fire" src="img/partners/path40.svg" alt="">
-                        <img class="log" src="img/partners/path42.svg" alt="">
-                   </div>
-                </div>
-                <div class="partners__col">
-                   <div class="gazprom__logo">
-                        <img class="g" src="img/partners/path26.svg" alt="">
-                        <img class="a" src="img/partners/path28.svg" alt="">
-                        <img class="z" src="img/partners/path30.svg" alt="">
-                        <img class="p" src="img/partners/path32.svg" alt="">
-                        <img class="r" src="img/partners/path34.svg" alt="">
-                        <img class="o" src="img/partners/path36.svg" alt="">
-                        <img class="m" src="img/partners/path38.svg" alt="">
-                        <img class="fire" src="img/partners/path40.svg" alt="">
-                        <img class="log" src="img/partners/path42.svg" alt="">
-                   </div>
-                </div>
-                <div class="partners__col">
-                   <div class="gazprom__logo">
-                        <img class="g" src="img/partners/path26.svg" alt="">
-                        <img class="a" src="img/partners/path28.svg" alt="">
-                        <img class="z" src="img/partners/path30.svg" alt="">
-                        <img class="p" src="img/partners/path32.svg" alt="">
-                        <img class="r" src="img/partners/path34.svg" alt="">
-                        <img class="o" src="img/partners/path36.svg" alt="">
-                        <img class="m" src="img/partners/path38.svg" alt="">
-                        <img class="fire" src="img/partners/path40.svg" alt="">
-                        <img class="log" src="img/partners/path42.svg" alt="">
-                   </div>
-                </div>
-                <div class="partners__col">
-                   <div class="gazprom__logo">
-                        <img class="g" src="img/partners/path26.svg" alt="">
-                        <img class="a" src="img/partners/path28.svg" alt="">
-                        <img class="z" src="img/partners/path30.svg" alt="">
-                        <img class="p" src="img/partners/path32.svg" alt="">
-                        <img class="r" src="img/partners/path34.svg" alt="">
-                        <img class="o" src="img/partners/path36.svg" alt="">
-                        <img class="m" src="img/partners/path38.svg" alt="">
-                        <img class="fire" src="img/partners/path40.svg" alt="">
-                        <img class="log" src="img/partners/path42.svg" alt="">
-                   </div>
-                </div>
+        <div class="benefits__body">
+
+            <div class="benefits__col">
+                <div class="benefits__col_title">NFMe ID</div>
+                <div class="benefits__col_text">Ваш уникальный аватар, основанный на реальных данных пользователей</div>
             </div>
+            <div class="benefits__col">
+                <div class="benefits__col_title">Data NFT</div>
+                <div class="benefits__col_text">Создавайте NFT и продавайте их на маркетплейсах</div>
+            </div>
+            <div class="benefits__col">
+                <div class="benefits__col_title">Greenroom</div>
+                <div class="benefits__col_text">Кросс-совместимость аватаров различных вселенных и общие игровые возможности метавселенной</div>
+            </div>
+            <div class="benefits__col">
+                <div class="benefits__col_title">Data Coalition DAO</div>
+                <div class="benefits__col_text">Присоединяйтесь к DAO сообществу, торгуйте, фармите, занимайтесь стейкингом и получайте прибыль</div>
+            </div>
+
+            <img class="benefis__bg" src="img/benefis.png" alt="">
+
+            <div class="circle"></div>
+            <div class="elips">
+                <div class="elips__top"></div>
+                <div class="elips__bot"></div>
+            </div>
+
+            <div class="benefits__body_mob">
+            <div class="benefis__bg_mob">
+                <img src="img/benefis.png" alt="">
+                <div class="circle__mob"></div>
+                <div class="elips__mob"></div>
+            </div>
+            <div class="benefis__col__row">
+                <div class="benefits__col_mob">
+                <div class="benefits__col_title">NFMe ID</div>
+                <div class="benefits__col_text">Ваш уникальный аватар, основанный на реальных данных пользователей</div>
+            </div>
+                <div class="benefits__col_mob">
+                <div class="benefits__col_title">Data NFT</div>
+                <div class="benefits__col_text">Создавайте NFT и продавайте их на маркетплейсах</div>
+            </div>
+                <div class="benefits__col_mob">
+                <div class="benefits__col_title">Greenroom</div>
+                <div class="benefits__col_text">Кросс-совместимость аватаров различных вселенных и общие игровые возможности метавселенной</div>
+            </div>
+                <div class="benefits__col_mob">
+                <div class="benefits__col_title">Data Coalition DAO</div>
+                <div class="benefits__col_text">Присоединяйтесь к DAO сообществу, торгуйте, фармите, занимайтесь стейкингом и получайте прибыль</div>
+            </div>
+            </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="sponsors">
+    <div class="container">
+
+        <section class="section">
+        <h2 class="h2"><span>Наши</span> спонсоры
+        </h2>
+        </section>
+
+        <div class="sponsors__body">
+            <div class="sponsors__col">
+                <a href="#"><img src="img/partners/tesla.png" alt=""></a>
+            </div>
+            <div class="sponsors__col">
+                <a href="#"><img src="img/partners/62282869ac87e9f283af282d_elrond.png" alt=""></a>
+            </div>
+            <div class="sponsors__col">
+                <a href="#"><img src="img/partners/622828a0a9be455e0dda4d29_mechanism.png" alt=""></a>
+            </div>
+            <div class="sponsors__col">
+                <a href="#"><img src="img/partners/622828f3b67ea7d83ad7ab4e_skynet.png" alt=""></a>
+            </div>
+            <div class="sponsors__col">
+                <a  href="#"><img src="img/partners/trust.png" alt=""></a>
+            </div>
+            <div class="sponsors__col">
+                <a href="#">
+                <img src="img/partners/metamask.png" alt=""></a>
+            </div>
+            <div class="sponsors__col">
+                <a href="#"><img src="img/partners/622863b0e7b1494b19f91be9_sparklogo.png" alt=""></a>
+            </div>
+            <div class="sponsors__col">
+                <a href="#"><img src="img/partners/6228940c6579863a504b0ca1_woodstocklogo-white.png" alt=""></a>
+            </div>
+            <div class="sponsors__col">
+                <a href="#"><img src="img/partners/amazon.png" alt=""></a>
+            </div>
+            <div class="sponsors__col">
+                <a href="#"><img src="img/partners/bin.png" alt=""></a>
+            </div>
+            <div class="sponsors__col">
+                <a href="#">
+                <img src="img/partners/oculus.png" alt=""></a>
+            </div>
+            <div class="sponsors__col">
+                <a href="#">
+                <img src="img/partners/pancake.png" alt=""></a>
+            </div>
+            <div class="sponsors__col">
+                <a href="#"><img src="img/partners/nvidia.png" alt=""></a>
+            </div>
+            <div class="sponsors__col">
+                <a href="#"><img src="img/partners/glass.png" alt=""></a>
+            </div>
+            <div class="sponsors__col">
+                <a href="#"><img src="img/partners/62285deb468506dedb285eb4_MHC-Digital.png" alt=""></a>
+            </div>
+            <div class="sponsors__col">
+                <a href="#"><img src="img/partners/steam.png" alt=""></a>
+            </div>
+            <div class="sponsors__col">
+                <a href="#"><img src="img/partners/6228282d07fa1f1945255c0f_morningstar.svg" alt=""></a>
+            </div>
+            <div class="sponsors__col">
+                <a href="#">
+                <img src="img/partners/62282949ab178a40d0bbd01f_zbscapital.png" alt=""></a>
+            </div>
+        </div>
+
+        <div class="sponsors__content">
+            <div class="sponsors__content__col">
+                <img src="img/partners/6228282d07fa1f1945255c0f_morningstar.svg" alt="">
+            </div>
+            <div class="sponsors__content__col">
+                Первый проект при поддержке компании <span>Morningstar Ventures' Elrond Dubai Incubator</span>
+            </div>
+
+            <div class="col__item"></div>
+
         </div>
 
     </div>
 </div>
 
-<footer class="footer">
+<div class="fotter">
     <div class="container">
 
-        <h2 class="h2"><span>стать</span>меценатом</h2>
+        <h3 class="h3">Присоединяйтесь к экосистеме <span>ITHEUM</span></h3>
 
-        <div class="footer__body">
-            <div class="footer__row">
+        <div class="fotter__text">Подписывайся на обновления и оставайтесь в курсе наших достижений!</div>
 
-                <div class="footer__col">
-                    <div class="footer__info">
-                        <div class="footer__phone">
-                            <p class="phone__1">
-                            <a href="#">+7 (812) 123-45-55</a>
-                            </p>
-                            <p class="phone__2">
-                            <a href="3">+7 (812) 123-45-55</a>
-                            </p>
-                        </div>
-                        <div class="footer__adres">
-                            <p class="p__mail">
-                            <a href="#">info@theater.ru</a>
-                            </p>
-                            <p class="p__adres">
-                            <a href="#">г. санкт-петербург, невский 140</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="footer__col">
-                    <div class="footer__form">
-                        <div class="footer__input">
-                            <div class="input__input">
-                                <input type="name" class="input__name" placeholder="Имя">
-                                <input type="text" class="input__company" placeholder="Компания">
-                                <input type="TEL" class="input__phone" placeholder="Телефон">
-                                <input type="mail" class="input__mail" placeholder="E-mail">
-                            </div>
-                            <div class="input__area">
-                                <input type="text" class="message" placeholder="Cообщение">
-                            </div>
-                        </div>
-                        <div class="footer__btn">
-                            <p class="btn__text">* Ваши данные не будут переданы третьим лицам, 100% вероятность. Конфиденциальность мы гарантируем, и защищаем персональные данные согласно законку ФЗ-52.</p>
-                            <button class="footer__button">Отправить</button>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="footer__bot">
-                <p class="conf">(с) Все права защищены. Большой театр. 2020</p>
-                <p class="razrab">Разработано d-e-n.ru</p>
-            </div>
-        </div>
+        <a class="fotter__logo" href="#">
+            <img src="#" alt="logo">
+            <p>© Itheum 2022</p>
+        </a>
 
     </div>
-</footer>
+</div>
+
+
+
+
+
+
+
+
 
 
 
@@ -414,8 +405,10 @@
 <script src="js/slick.min.js"></script>
 
 <!--Файл скриптов-->
-<script src="js/script.js"></script>
 <script src="js/slider.js"></script>
+<script src="js/burber.js"></script>
+<script src="js/spoiler.js"></script>
+<script src="https://kit.fontawesome.com/31319482ca.js" crossorigin="anonymous"></script>
 
 </body>
 </html>
